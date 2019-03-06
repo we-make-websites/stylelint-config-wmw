@@ -2,13 +2,7 @@ module.exports = {
   // Specify a blacklist of disallowed at-rules.
   'at-rule-blacklist': ['debug'],
   // Require or disallow an empty line before @rules.
-  'at-rule-empty-line-before': ['always', {
-    except: ['first-nested', 'blockless-after-same-name-blockless'],
-    ignore: ['after-comment'],
-    ignoreAtRules: [
-      'else',
-    ],
-  }],
+  'at-rule-empty-line-before': null,
   // Specify lowercase or uppercase for at-rules names.
   'at-rule-name-case': 'lower',
   // Require a newline after at-rule names.

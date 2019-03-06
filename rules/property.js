@@ -13,7 +13,9 @@ module.exports = {
   // Disallow unknown properties.
   'property-no-unknown': true,
   // Disallow vendor prefixes for properties.
-  'property-no-vendor-prefix': true,
+  'property-no-vendor-prefix': [true, {
+    'ignoreProperties': ['appearance']
+  }],
   // Specify a whitelist of allowed properties.
   'property-whitelist': null,
   // Disallow redundant values in shorthand properties.

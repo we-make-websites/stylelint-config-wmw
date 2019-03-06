@@ -1,3 +1,3 @@
 module.exports = {
-  'time-min-milliseconds': null,
+  'time-min-milliseconds': 100,
 };

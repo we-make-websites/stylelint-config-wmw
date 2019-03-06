@@ -4,9 +4,9 @@ module.exports = {
   // Require a newline or disallow whitespace after the commas of value lists.
   'value-list-comma-newline-after': 'always-multi-line',
   // Require a newline or disallow whitespace before the commas of value lists.
-  'value-list-comma-newline-before': null,
+  'value-list-comma-newline-before': 'never-multi-line',
   // Require a single space or disallow whitespace after the commas of value lists.
-  'value-list-comma-space-after': 'always-single-line',
+  'value-list-comma-space-after': 'always',
   // Require a single space or disallow whitespace before the commas of value lists.
   'value-list-comma-space-before': 'never',
   // Limit the number of adjacent empty lines within value lists.

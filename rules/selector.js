@@ -10,7 +10,7 @@ module.exports = {
   // Specify a whitelist of allowed attribute operators.
   'selector-attribute-operator-whitelist': null,
   // Require or disallow quotes for attribute values.
-  'selector-attribute-quotes': 'always',
+  'selector-attribute-quotes': 'never',
   // Specify a pattern for class selectors.
   'selector-class-pattern': /^[a-zA-Z][a-zA-Z0-9]+$/,
   // Require a single space or disallow whitespace after the combinators of selectors.
@@ -20,35 +20,35 @@ module.exports = {
   // Disallow non-space characters for descendant combinators of selectors.
   'selector-descendant-combinator-no-non-space': true,
   // Specify a pattern for id selectors.
-  'selector-id-pattern': /^[A-Z][a-zA-Z0-9]+$/,
+  'selector-id-pattern': null,
   // Limit the number of attribute selectors in a selector.
-  'selector-max-attribute': 1,
+  'selector-max-attribute': null,
   // Limit the number of classes in a selector.
-  'selector-max-class': 2,
+  'selector-max-class': null,
   // Limit the number of combinators in a selector.
-  'selector-max-combinators': 1,
+  'selector-max-combinators': null,
   // Limit the number of id selectors in a selector.
   'selector-max-id': 0,
   // Limit the number of type in a selector.
-  'selector-max-type': 1,
+  'selector-max-type': null,
   // Limit the number of universal selectors in a selector.
   'selector-max-universal': 2,
   // Require a newline or disallow whitespace after the commas of selector lists.
-  'selector-list-comma-newline-after': 'always',
+  'selector-list-comma-newline-after': 'always-multi-line',
   // Require a newline or disallow whitespace before the commas of selector lists.
   'selector-list-comma-newline-before': null,
   // Require a single space or disallow whitespace after the commas of selector lists.
-  'selector-list-comma-space-after': 'never-single-line',
+  'selector-list-comma-space-after': 'always-single-line',
   // Require a single space or disallow whitespace before the commas of selector lists.
   'selector-list-comma-space-before': 'never',
   // Limit the number of compound selectors in a selector.
   'selector-max-compound-selectors': 3,
   // Limit the specificity of selectors.
-  'selector-max-specificity': '0,3,0',
+  'selector-max-specificity': null,
   // Specify a pattern for the selectors of rules nested within rules.
   'selector-nested-pattern': null,
   // Disallow qualifying a selector by type.
-  'selector-no-qualifying-type': true,
+  'selector-no-qualifying-type': null,
   // Disallow vendor prefixes for selectors.
   'selector-no-vendor-prefix': true,
   // Specify a blacklist of disallowed pseudo-class selectors.

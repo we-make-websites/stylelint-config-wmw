@@ -36,13 +36,7 @@ module.exports = {
   // Specify a pattern for %-placeholders.
   'scss/percent-placeholder-pattern': null,
   // Require or disallow an empty line before //-comments.
-  'scss/double-slash-comment-empty-line-before': [
-    'always',
-    {
-      except: ['first-nested'],
-      ignore: ['between-comments', 'stylelint-commands'],
-    },
-  ],
+  'scss/double-slash-comment-empty-line-before': null,
   // Require or disallow //-comments to be inline comments.
   'scss/double-slash-comment-inline': null,
   // Require or disallow whitespace after the // in //-comments

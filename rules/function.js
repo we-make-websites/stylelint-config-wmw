@@ -1,14 +1,17 @@
 module.exports = {
   // Specify a blacklist of disallowed functions.
-  'function-blacklist': null,
+  'function-blacklist': [
+    ['hsl', 'hsla'],
+    { 'message': 'Use only rgb or hex values' }
+  ],
   // Disallow an unspaced operator within calc functions.
   'function-calc-no-unspaced-operator': true,
   // Require a newline or disallow whitespace after the commas of functions.
   'function-comma-newline-after': 'never-multi-line',
   // Require a newline or disallow whitespace before the commas of functions.
-  'function-comma-newline-before': null,
+  'function-comma-newline-before': 'never-multi-line',
   // Require a single space or disallow whitespace after the commas of functions.
-  'function-comma-space-after': 'always-single-line',
+  'function-comma-space-after': 'always',
   // Require a single space or disallow whitespace before the commas of functions.
   'function-comma-space-before': 'never',
   // Disallow direction values in linear-gradient() calls that are not valid according to the standard syntax.
@@ -18,9 +21,9 @@ module.exports = {
   // Specify lowercase or uppercase for function names.
   'function-name-case': 'lower',
   // Require a newline or disallow whitespace on the inside of the parentheses of functions.
-  'function-parentheses-newline-inside': 'always-multi-line',
+  'function-parentheses-newline-inside': 'never-multi-line',
   // Require a single space or disallow whitespace on the inside of the parentheses of functions.
-  'function-parentheses-space-inside': 'never-single-line',
+  'function-parentheses-space-inside': 'never',
   // Disallow scheme-relative urls.
   'function-url-no-scheme-relative': true,
   // Require or disallow quotes for urls.

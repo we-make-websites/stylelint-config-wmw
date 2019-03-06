@@ -1,8 +1,6 @@
 module.exports = {
   // Disallow duplicate properties within declaration blocks.
-  'declaration-block-no-duplicate-properties': [true, {
-    ignore: 'consecutive-duplicates',
-  }],
+  'declaration-block-no-duplicate-properties': true,
   // Disallow longhand properties that can be combined into one shorthand property.
   'declaration-block-no-redundant-longhand-properties': [true, {
     ignoreShorthands: ['/^grid.*/'],
@@ -10,7 +8,7 @@ module.exports = {
   // Disallow shorthand properties that override related longhand properties within declaration blocks.
   'declaration-block-no-shorthand-property-overrides': true,
   // Require a newline or disallow whitespace after the semicolons of declaration blocks.
-  'declaration-block-semicolon-newline-after': 'always-multi-line',
+  'declaration-block-semicolon-newline-after': 'always',
   // Require a newline or disallow whitespace before the semicolons of declaration blocks.
   'declaration-block-semicolon-newline-before': 'never-multi-line',
   // Require a single space or disallow whitespace after the semicolons of declaration blocks.
@@ -28,23 +26,29 @@ module.exports = {
   // Require a newline or disallow whitespace after the colon of declarations.
   'declaration-colon-newline-after': 'always-multi-line',
   // Require a single space or disallow whitespace after the colon of declarations.
-  'declaration-colon-space-after': 'always-single-line',
+  'declaration-colon-space-after': 'always',
   // Require a single space or disallow whitespace before the colon of declarations.
   'declaration-colon-space-before': 'never',
   //  Require or disallow an empty line before declarations.
-  'declaration-empty-line-before': ['never', {
-    ignore: ['after-declaration', 'inside-single-line-block'],
-  }],
+  'declaration-empty-line-before': 'never',
   // Disallow !important within declarations.
   'declaration-no-important': true,
   // Specify a blacklist of disallowed property and unit pairs within declarations.
-  'declaration-property-unit-blacklist': {},
+  'declaration-property-unit-blacklist': [
+    {
+      'letter-spacing': ['rem'],
+      'line-height': ['px', 'rem']
+    }
+  ],
   // Specify a whitelist of allowed property and unit pairs within declarations.
   'declaration-property-unit-whitelist': null,
   // Specify a blacklist of disallowed property and value pairs within declarations.
-  'declaration-property-value-blacklist': {
-    '/^animation/': ['linear'],
-  },
+  'declaration-property-value-blacklist': [
+    {
+      '/^animation/': ['linear'],
+      '/^border$/': ['none']
+    }
+  ],
   // Specify a whitelist of allowed property and value pairs within declarations.
   'declaration-property-value-whitelist': {},
   // Disallow !important within keyframe declarations.

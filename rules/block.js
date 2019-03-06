@@ -3,7 +3,7 @@ module.exports = {
   // Require a newline or disallow whitespace after the closing brace of blocks.
   'block-closing-brace-newline-after': 'always-single-line',
   // Require a newline or disallow whitespace before the closing brace of blocks.
-  'block-closing-brace-newline-before': 'always-multi-line',
+  'block-closing-brace-newline-before': 'always',
   // Require a single space or disallow whitespace after the closing brace of blocks.
   'block-closing-brace-space-after': null,
   // Require a single space or disallow whitespace before the closing brace of blocks.
@@ -11,9 +11,9 @@ module.exports = {
   // Disallow empty blocks.
   'block-no-empty': true,
   // Require a newline after the opening brace of blocks.
-  'block-opening-brace-newline-after': 'always-multi-line',
+  'block-opening-brace-newline-after': 'always',
   // Require a newline or disallow whitespace before the opening brace of blocks.
-  'block-opening-brace-newline-before': null,
+  'block-opening-brace-newline-before': 'always-single-line',
   // Require a single space or disallow whitespace after the opening brace of blocks.
   'block-opening-brace-space-after': 'always-single-line',
   // Require a single space or disallow whitespace before the opening brace of blocks.

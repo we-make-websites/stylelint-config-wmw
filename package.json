@@ -1,11 +1,11 @@
 {
-  "name": "stylelint-config-shopify",
-  "version": "7.1.0",
-  "description": "Shopify's stylelint rules and config",
+  "name": "@wmw/stylelint-config",
+  "version": "1.0.0",
+  "description": "We Make Website's stylelint rules and config",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shopify/stylelint-config-shopify"
+    "url": "https://github.com/we-make-websites/stylelint-config"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
@@ -24,9 +24,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shopify/stylelint-config-shopify/issues"
+    "url": "https://github.com/we-make-websites/stylelint-config/issues"
   },
-  "homepage": "https://github.com/shopify/stylelint-config-shopify",
+  "homepage": "https://github.com/we-make-websites/stylelint-config",
   "eslintConfig": {
     "extends": [
       "plugin:shopify/esnext",

@@ -4,7 +4,7 @@ module.exports = {
   // Specify unix or windows linebreaks
   linebreaks: 'unix',
   // Disallow more than a specified number of adjacent empty lines.
-  'max-empty-lines': 3,
+  'max-empty-lines': 1,
   // Limit the length of a line.
   'max-line-length': null,
   // Limit the depth of nesting.
