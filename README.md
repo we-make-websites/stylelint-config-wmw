@@ -1,27 +1,27 @@
-# stylelint-config-wmw
+# stylelint-config
 
 We Make Website's stylelint rules and config
 
 ## Installation
 
-Install [stylelint](https://stylelint.io/) and `stylelint-config-wmw`:
+Install [stylelint](https://stylelint.io/) and `@we-make-websites/stylelint-config`:
 
 **With Yarn**
 ```
-yarn add --dev stylelint stylelint-config-wmw
+yarn add --dev stylelint @we-make-websites/stylelint-config
 ```
 
 **With npm**
 ```
-npm install stylelint stylelint-config-wmw --save-dev
+npm install stylelint @we-make-websites/stylelint-config --save-dev
 ```
 
 
 ## Usage
-We Make Website’s stylelint rules come bundled in `stylelint-config-wmw`. To enable these rules, add a `stylelint` property in your `package.json`. See the [stylelint configuration docs](https://stylelint.io/user-guide/configuration/) for more details.
+We Make Website’s stylelint rules come bundled in `@we-make-websites/stylelint-config`. To enable these rules, add a `stylelint` property in your `package.json`. See the [stylelint configuration docs](https://stylelint.io/user-guide/configuration/) for more details.
 ```
 "stylelint": {
-  "extends": ["stylelint-config-wmw"]
+  "extends": ["@we-make-websites/stylelint-config"]
 }
 ```
 

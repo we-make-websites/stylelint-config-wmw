@@ -1,5 +1,5 @@
 {
-  "name": "@wmw/stylelint-config",
+  "name": "@we-make-websites/stylelint-config",
   "version": "1.0.0",
   "description": "We Make Website's stylelint rules and config",
   "main": "index.js",
