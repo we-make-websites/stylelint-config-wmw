@@ -2,7 +2,7 @@ module.exports = {
   // Specify indentation.
   indentation: 2,
   // Specify unix or windows linebreaks
-  linebreaks: 'unix',
+  linebreaks: null,
   // Disallow more than a specified number of adjacent empty lines.
   'max-empty-lines': 1,
   // Limit the length of a line.
