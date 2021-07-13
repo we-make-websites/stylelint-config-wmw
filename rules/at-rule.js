@@ -25,6 +25,7 @@ module.exports = {
       'include',
       'mixin',
       'return',
+      'use',
       'warn',
       'while',
     ],

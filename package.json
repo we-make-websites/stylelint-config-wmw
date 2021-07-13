@@ -1,6 +1,6 @@
 {
   "name": "@we-make-websites/stylelint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "We Make Website's stylelint rules and config",
   "main": "index.js",
   "repository": {
