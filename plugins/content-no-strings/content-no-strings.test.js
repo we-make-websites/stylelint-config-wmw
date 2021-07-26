@@ -1,4 +1,5 @@
 const testRule = require('stylelint-test-rule-tape');
+
 const contentNoStrings = require('.');
 
 testRule(contentNoStrings.rule, {

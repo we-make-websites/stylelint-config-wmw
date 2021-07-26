@@ -15,9 +15,9 @@ module.exports = {
   'scss/at-if-closing-brace-space-after': 'always-intermediate',
   // Disallow leading underscore in partial names in @import.
   'scss/at-import-no-partial-leading-underscore': true,
-  // Specify blacklist of disallowed file extensions for partial names in @import commands.
+  // Specify list of disallowed file extensions for partial names in @import commands.
   'scss/at-import-partial-extension-blacklist': ['scss'],
-  // Specify whitelist of allowed file extensions for partial names in @import commands.
+  // Specify list of allowed file extensions for partial names in @import commands.
   'scss/at-import-partial-extension-whitelist': null,
   // Disallow parentheses in argumentless @mixin calls.
   'scss/at-mixin-argumentless-call-parentheses': 'never',

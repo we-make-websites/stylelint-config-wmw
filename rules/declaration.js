@@ -33,24 +33,24 @@ module.exports = {
   'declaration-empty-line-before': 'never',
   // Disallow !important within declarations.
   'declaration-no-important': true,
-  // Specify a blacklist of disallowed property and unit pairs within declarations.
-  'declaration-property-unit-blacklist': [
+  // Specify a list of disallowed property and unit pairs within declarations.
+  'declaration-property-unit-disallowed-list': [
     {
       'letter-spacing': ['rem'],
-      'line-height': ['px', 'rem']
-    }
+      'line-height': ['px', 'rem'],
+    },
   ],
-  // Specify a whitelist of allowed property and unit pairs within declarations.
-  'declaration-property-unit-whitelist': null,
-  // Specify a blacklist of disallowed property and value pairs within declarations.
-  'declaration-property-value-blacklist': [
+  // Specify a list of allowed property and unit pairs within declarations.
+  'declaration-property-unit-allowed-list': null,
+  // Specify a list of disallowed property and value pairs within declarations.
+  'declaration-property-value-disallowed-list': [
     {
       '/^animation/': ['linear'],
-      '/^border$/': ['none']
-    }
+      '/^border$/': ['none'],
+    },
   ],
-  // Specify a whitelist of allowed property and value pairs within declarations.
-  'declaration-property-value-whitelist': {},
+  // Specify a list of allowed property and value pairs within declarations.
+  'declaration-property-value-allowed-list': {},
   // Disallow !important within keyframe declarations.
   'keyframe-declaration-no-important': true,
 };

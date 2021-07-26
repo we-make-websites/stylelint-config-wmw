@@ -1,49 +1,20 @@
 {
   "name": "@we-make-websites/stylelint-config",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "We Make Website's stylelint rules and config",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/we-make-websites/stylelint-config"
-  },
-  "scripts": {
-    "lint": "eslint . --max-warnings 0",
-    "check": "yarn lint && yarn test",
-    "test": "tape plugins/**/*.test.js"
-  },
-  "engines": {
-    "node": ">=8.10.0"
-  },
-  "keywords": [
-    "stylelint",
-    "stylelint-config",
-    "config",
-    "shopify",
-    "css"
-  ],
+  "repository": "https://github.com/we-make-websites/stylelint-config",
+  "author": "Craig Baldwin <craig@wemakewebsites.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/we-make-websites/stylelint-config/issues"
-  },
-  "homepage": "https://github.com/we-make-websites/stylelint-config",
-  "eslintConfig": {
-    "extends": [
-      "plugin:shopify/esnext",
-      "plugin:shopify/node"
-    ]
-  },
+  "main": "index.js",
   "dependencies": {
-    "merge": "1.2.x",
-    "stylelint-config-prettier": "^4.0.0",
-    "stylelint-order": "1.0.0",
-    "stylelint-prettier": "1.0.6",
-    "stylelint-scss": "3.3.0"
+    "merge": "2.1.1",
+    "stylelint-order": "4.1.0",
+    "stylelint-scss": "3.20.1"
   },
   "devDependencies": {
-    "eslint": "^5.4.0",
-    "eslint-plugin-shopify": "^24.0.0",
-    "stylelint": "9.5.0",
+    "eslint": "^7.31.0",
+    "eslint-plugin-shopify": "^35.1.0",
+    "stylelint": "13.13.1",
     "stylelint-test-rule-tape": "^0.2.0",
     "tape": "^4.9.1"
   },
@@ -52,5 +23,14 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": "^16.5.0"
+  },
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "check": "yarn lint && yarn test",
+    "test": "tape plugins/**/*.test.js"
   }
 }

@@ -4,15 +4,15 @@ module.exports = {
     [
       'dollar-variables',
       'at-rules',
-      { 'type': 'at-rule', 'name': 'import' },
-      { 'type': 'at-rule', 'name': 'extend' },
+      { type: 'at-rule', name: 'import' },
+      { type: 'at-rule', name: 'extend' },
       'custom-properties',
       'declarations',
-      { 'type': 'at-rule', 'name': 'include', 'parameter': 'has-hover' },
-      { 'type': 'at-rule', 'name': 'include', 'parameter': 'mq' },
-      { 'type': 'at-rule', 'name': 'media' }
+      { type: 'at-rule', name: 'include', parameter: 'has-hover' },
+      { type: 'at-rule', name: 'include', parameter: 'mq' },
+      { type: 'at-rule', name: 'media' },
     ],
-    { 'unspecified': 'ignore' }
+    { unspecified: 'ignore' },
   ],
 
   // https://github.com/hudochenkov/stylelint-order/tree/master/rules/properties-order
