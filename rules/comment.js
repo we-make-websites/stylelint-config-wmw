@@ -1,7 +1,6 @@
 module.exports = {
   // Require or disallow an empty line before comments.
   'comment-empty-line-before': ['always', {
-    except: ['first-nested'],
     ignore: ['stylelint-commands'],
   }],
   // Disallow empty comments.
