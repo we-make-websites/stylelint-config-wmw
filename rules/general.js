@@ -22,5 +22,5 @@ module.exports = {
   // Disallow missing end-of-file newline.
   'no-missing-end-of-source-newline': true,
   // Disallow animation names that do not correspond to a @keyframes declaration.
-  'no-unknown-animations': true,
+  'no-unknown-animations': null,
 };
