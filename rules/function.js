@@ -31,7 +31,7 @@ module.exports = {
   // Specify a list of disallowed url schemes.
   'function-url-scheme-disallowed-list': null,
   // Specify a list of allowed url schemes.
-  'function-url-scheme-allowed-list': ['http', 'https'],
+  'function-url-scheme-allowed-list': ['http', 'https', 'data'],
   // Specify a list of only allowed functions.
   'function-allowed-list': null,
   // Require a single space or disallow whitespace after functions.
