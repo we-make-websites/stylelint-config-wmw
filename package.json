@@ -1,36 +1,27 @@
 {
   "name": "@we-make-websites/stylelint-config",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "description": "We Make Website's stylelint rules and config",
   "repository": "https://github.com/we-make-websites/stylelint-config",
   "author": "Craig Baldwin <craig@wemakewebsites.com>",
   "license": "MIT",
   "main": "index.js",
-  "dependencies": {
-    "merge": "2.1.1",
-    "stylelint-order": "4.1.0",
-    "stylelint-scss": "3.20.1"
-  },
   "devDependencies": {
-    "eslint": "^7.31.0",
-    "eslint-plugin-shopify": "^35.1.0",
-    "stylelint": "13.13.1",
-    "stylelint-test-rule-tape": "^0.2.0",
-    "tape": "^4.9.1"
+    "stylelint": "^14.0.0"
+  },
+  "dependencies": {
+    "merge": "^2.1.1",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.0.0"
   },
   "peerDependencies": {
-    "stylelint": ">=9.4.0"
-  },
-  "publishConfig": {
-    "access": "public"
+    "stylelint": "^14.0.0"
   },
   "engineStrict": true,
   "engines": {
-    "node": "^16.5.0"
+    "node": "^16.6.0"
   },
   "scripts": {
-    "lint": "eslint . --max-warnings 0",
-    "check": "yarn lint && yarn test",
-    "test": "tape plugins/**/*.test.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
