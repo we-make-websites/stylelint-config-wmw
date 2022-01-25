@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.1.0 - 2022-01-25
+* Updated dependencies
+
 ## 3.0.1 - 2021-10-26
 * Added `postcss-scss` and set stylelint to validate SCSS files
 
