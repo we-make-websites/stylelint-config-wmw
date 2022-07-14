@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.2.0 - 2022-07-14
+* Updated dependencies
+
 ## 3.1.0 - 2022-01-25
 * Updated dependencies
 
