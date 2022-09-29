@@ -1,6 +1,6 @@
 {
   "name": "@we-make-websites/stylelint-config",
-  "version": "3.3.0",
+  "version": "3.4.0",
   "description": "We Make Website's stylelint rules and config",
   "repository": "https://github.com/we-make-websites/stylelint-config",
   "author": "Craig Baldwin <craig@wemakewebsites.com>",

@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.4.0 - 2022-09-29
+* Updated order rule to place `@each` query after media queries
+
 ## 3.3.0 - 2022-09-29
 * Updated order rule to place `@supports` query before media queries
 * Updated dependencies
