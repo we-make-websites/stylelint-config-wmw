@@ -12,6 +12,7 @@ module.exports = {
       { type: 'at-rule', name: 'include', parameter: 'has-hover' },
       { type: 'at-rule', name: 'include', parameter: 'mq' },
       { type: 'at-rule', name: 'media' },
+      { type: 'at-rule', name: 'each' },
     ],
     { unspecified: 'ignore' },
   ],
