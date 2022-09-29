@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.3.0 - 2022-09-29
+* Updated order rule to place `@supports` query before media queries
+* Updated dependencies
+
 ## 3.2.0 - 2022-07-14
 * Updated dependencies
 

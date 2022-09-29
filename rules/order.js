@@ -8,6 +8,7 @@ module.exports = {
       { type: 'at-rule', name: 'extend' },
       'custom-properties',
       'declarations',
+      { type: 'at-rule', name: 'supports' },
       { type: 'at-rule', name: 'include', parameter: 'has-hover' },
       { type: 'at-rule', name: 'include', parameter: 'mq' },
       { type: 'at-rule', name: 'media' },
@@ -20,4 +21,4 @@ module.exports = {
 
   // https://github.com/hudochenkov/stylelint-order/tree/master/rules/properties-alphabetical-order
   'order/properties-alphabetical-order': true,
-};
+}
